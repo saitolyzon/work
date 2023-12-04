@@ -68,3 +68,10 @@ body {
   #computer-score-percentage {
     color: #ff0000;
   }
+
+  #memo {
+    font-size: 0.8rem;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }

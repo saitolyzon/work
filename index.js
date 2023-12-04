@@ -64,8 +64,8 @@ function janken(playerSelection, computerSelection) {
       /* 追加課題1 */
       //プレイヤーのスコア(playerScore)に点数を1点追加したい
       
-      //プレイヤーのスコアを表示をしている部分(playerScoreText)に点数を表示したい(◯◯◯.textContent)
-  
+      //プレイヤーのスコアを表示をしている部分(playerScoreText)に点数を表示する
+      playerScoreText.textContent = playerScore;
 
     /* 追加課題2 */
     //プレイヤーのスコアとコンピューターのスコアを足した試合数に応じて勝率を出したい(勝率＝プレイヤーのスコア÷(プレイヤーのスコア ＋ コンピューターのスコア) ✕ 100)
@@ -79,12 +79,17 @@ function janken(playerSelection, computerSelection) {
     /* 追加課題1 */
     //コンピューターのスコア(computerScore)に点数を1点追加したい
 
-    //コンピューターのスコアを表示をしている部分(computerScoreText)に点数を表示したい(◯◯◯.textContent)
+    //コンピューターのスコアを表示をしている部分(computerScoreText)に点数を表示する
+    computerScoreText.textContent = computerScore;
 
     /* 追加課題2 */
-    //プレイヤーのスコアとコンピューターのスコアを足した試合数に応じて勝率を出したい(勝率＝△△のスコア÷(プレイヤーのスコア ＋ コンピューターのスコア) ✕ 100)
+    //プレイヤーのスコアとコンピューターのスコアを足した試合数に応じて勝率を出したい
+    // プレイヤーの勝率 ＝ プレイヤーの勝利数 ÷ (プレイヤーの勝利数 ＋ コンピューターの勝利数) ✕ 100
+    // コンピューターの勝率 ＝ コンピューターの勝利数 ÷ (プレイヤーの勝利数 ＋ コンピューターの勝利数) ✕ 100
     //※あいこは勝負回数にカウントしない
     //小数点四捨五入はMath.round(数字)を使う
+    //playerScorePercentage.textContent = 
+    //computerScorePercentage.textContent = 
 
     return "負けました… (あなた):" + playerSelection + " (コンピューター):" + computerSelection;
   }
