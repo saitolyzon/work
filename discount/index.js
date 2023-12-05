@@ -12,14 +12,14 @@ function calculateTotal() {
   const discountValue = discountInput.value;
 
   //計算した金額を代入する変数
-  let totalValue;
-  let totaltaxValue;
+  let totalValue = 0;
+  let totaltaxValue = 0;
 
   //割引した金額(税抜)を計算してtotalValueに代入する
-  totalValue = priceValue * (1 - discountValue / 100);
+  totalValue = priceValue;
   
   //割引した後の金額の税込金額を計算してtotaltaxValueに代入する
-  totaltaxValue = (priceValue * (1 - discountValue / 100)) * 1.1;
+  totaltaxValue = priceValue;
   
   //計算した金額を表示する
   totalSpan.innerText = Math.round(totalValue) + "円";
