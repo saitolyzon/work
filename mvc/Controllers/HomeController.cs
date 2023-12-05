@@ -1,6 +1,5 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using SampleMVCApp.Models;
 
 namespace SampleMVCApp.Controllers;
 
@@ -13,7 +12,7 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult Profile()
     {
         return View();
     }
