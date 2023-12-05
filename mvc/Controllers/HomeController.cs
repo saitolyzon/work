@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace SampleMVCApp.Controllers;
+namespace LyzonMVCApp.Controllers;
 
 public class HomeController : Controller
 {
