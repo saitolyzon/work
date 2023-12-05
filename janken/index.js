@@ -25,13 +25,13 @@ const computerScorePercentage = document.getElementById("computer-score-percenta
 buttons.forEach((button) => {   //ボタンの数だけ処理を繰り返す
 
   //ボタンがクリックされたら…
-  button.addEventListener("click", () => {  
+  button.addEventListener("click", () => {
 
     //押されたボタンのIDをjankenメソッドに渡して実行する＆コンピューターの手も決める
-    const result = janken(button.id, computerPlay());  
-    
+    const result = janken(button.id, computerPlay());
+
     //勝敗結果のテキストを書き換える
-    resultText.textContent = result;    
+    resultText.textContent = result;
   });
 });
 
@@ -61,11 +61,11 @@ function janken(playerSelection, computerSelection) {
     //パー vs グー
 
   ) {
-      /* 追加課題1 */
-      //プレイヤーのスコア(playerScore)に点数を1点追加したい
-      
-      //プレイヤーのスコアを表示をしている部分(playerScoreText)に点数を表示する
-      playerScoreText.textContent = playerScore;
+    /* 追加課題1 */
+    //プレイヤーのスコア(playerScore)に点数を1点追加したい
+
+    //プレイヤーのスコアを表示をしている部分(playerScoreText)に点数を表示する
+    playerScoreText.textContent = playerScore;
 
     /* 追加課題2 */
     //プレイヤーのスコアとコンピューターのスコアを足した試合数に応じて勝率を出したい(勝率＝プレイヤーのスコア÷(プレイヤーのスコア ＋ コンピューターのスコア) ✕ 100)
@@ -74,7 +74,7 @@ function janken(playerSelection, computerSelection) {
 
     return "勝ちました！ (あなた):" + playerSelection + " (コンピューター):" + computerSelection;
 
-  //それ以外だったら…
+    //それ以外だったら…
   } else {
     /* 追加課題1 */
     //コンピューターのスコア(computerScore)に点数を1点追加したい

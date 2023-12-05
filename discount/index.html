@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="jp">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,30 @@
     <title>割引率計算機</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <h1>割引率計算機</h1>
         <p>買いたい商品の金額を入力してください。</p>
         <label for="price">商品の金額(税抜):</label>
         <input type="number" id="price">
-        <br/>
+        <br />
         <label for="discount">割引率:</label>
         <input type="number" id="discount">
-        <br/>
+        <br />
         <button id="calculate">計算！</button>
-        <br/>
+        <br />
         <label for="total">金額(税抜):</label>
         <span id="total"></span>
-        <br/>
+        <br />
         <label for="total">金額(10％税込):</label>
         <span id="totaltax"></span>
+        <p>
+            Lv1. 「金額(税抜)」が表示されるようにしよう<br />
+            Lv2. 「金額(10％税込)」が表示されるようにしよう
+        </p>
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>

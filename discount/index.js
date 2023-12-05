@@ -18,7 +18,7 @@ function calculateTotal() {
   /*=====================*/
   //① 割引した金額(税抜)を計算してtotalValueに代入する
   totalValue = priceValue;
-  
+
   //② 割引した後の金額の税込金額を計算してtotaltaxValueに代入する
   totaltaxValue = priceValue;
   /*=====================*/
