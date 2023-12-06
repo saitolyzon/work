@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AagU3k6sgFtSZH0pZD+GXIiqL7j+PvTU7x8QaDoD3iyyvkDAVVVOAw/C8TylpCF67HNG19V5W4OQVEmfcJ50Pg==",
+  "dgSpecHash": "ROCBPY3HYAIrizVr5saecmMpkrJ54wj3YzUQTzd3jHVM3GgQI4HZRuJj/zcg4FsC81bCGbQHiA6MHahaRfiKfw==",
   "success": true,
-  "projectFilePath": "/workspaces/work/mvc/SampleMVCApp.csproj",
+  "projectFilePath": "C:\\git\\bitbucket\\2023_intern_work_winter\\mvc\\SampleMVCApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -17,4 +17,14 @@ public class HomeController : Controller
         return View();
     }
 
+        public IActionResult Discount()
+    {
+        return View();
+    }
+
+        public IActionResult Janken()
+    {
+        return View();
+    }
+
 }
