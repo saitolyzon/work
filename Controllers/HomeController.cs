@@ -14,6 +14,11 @@ public class HomeController : Controller
 
     public IActionResult Profile()
     {
+        ViewBag.Name = "ライゾン 太郎";
+        //以下の3項目を追加しよう！
+        //出身地
+        //趣味
+        //マイブーム
         return View();
     }
 
