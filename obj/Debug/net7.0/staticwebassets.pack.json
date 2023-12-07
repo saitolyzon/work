@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SampleMVCApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\SampleMVCApp.bundle.scp.css"
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\LyzonMVCApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LyzonMVCApp.bundle.scp.css"
     },
     {
       "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\css\\discount.css",
@@ -301,20 +301,20 @@
       "PackagePath": "staticwebassets\\media\\profile_2.png"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SampleMVCApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.LyzonMVCApp.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.SampleMVCApp.props",
-      "PackagePath": "build\\SampleMVCApp.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.LyzonMVCApp.props",
+      "PackagePath": "build\\LyzonMVCApp.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.SampleMVCApp.props",
-      "PackagePath": "buildMultiTargeting\\SampleMVCApp.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.LyzonMVCApp.props",
+      "PackagePath": "buildMultiTargeting\\LyzonMVCApp.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.SampleMVCApp.props",
-      "PackagePath": "buildTransitive\\SampleMVCApp.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.LyzonMVCApp.props",
+      "PackagePath": "buildTransitive\\LyzonMVCApp.props"
     }
   ],
   "ElementsToRemove": []

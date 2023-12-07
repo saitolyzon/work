@@ -16,9 +16,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\git\\bitbucket\\2023_intern_work_winter\\SampleMVCApp.csproj",
-      "projectName": "SampleMVCApp",
-      "projectPath": "C:\\git\\bitbucket\\2023_intern_work_winter\\SampleMVCApp.csproj",
+      "projectUniqueName": "C:\\git\\bitbucket\\2023_intern_work_winter\\LyzonMVCApp.csproj",
+      "projectName": "LyzonMVCApp",
+      "projectPath": "C:\\git\\bitbucket\\2023_intern_work_winter\\LyzonMVCApp.csproj",
       "packagesPath": "C:\\Users\\saito\\.nuget\\packages\\",
       "outputPath": "C:\\git\\bitbucket\\2023_intern_work_winter\\obj\\",
       "projectStyle": "PackageReference",

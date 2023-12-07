@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "SampleMVCApp/1.0.0": {
+      "LyzonMVCApp/1.0.0": {
         "runtime": {
-          "SampleMVCApp.dll": {}
+          "LyzonMVCApp.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "SampleMVCApp/1.0.0": {
+    "LyzonMVCApp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
