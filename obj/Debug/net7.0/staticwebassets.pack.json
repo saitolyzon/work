@@ -29,10 +29,6 @@
       "PackagePath": "staticwebassets\\js\\janken.js"
     },
     {
-      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
-    },
-    {
       "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
@@ -259,6 +255,50 @@
     {
       "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\media\\discount_1.png",
+      "PackagePath": "staticwebassets\\media\\discount_1.png"
+    },
+    {
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\media\\discount_1c.png",
+      "PackagePath": "staticwebassets\\media\\discount_1c.png"
+    },
+    {
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\media\\discount_2.png",
+      "PackagePath": "staticwebassets\\media\\discount_2.png"
+    },
+    {
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\media\\janken.png",
+      "PackagePath": "staticwebassets\\media\\janken.png"
+    },
+    {
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\media\\janken_1.png",
+      "PackagePath": "staticwebassets\\media\\janken_1.png"
+    },
+    {
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\media\\janken_1b.png",
+      "PackagePath": "staticwebassets\\media\\janken_1b.png"
+    },
+    {
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\media\\janken_1c.png",
+      "PackagePath": "staticwebassets\\media\\janken_1c.png"
+    },
+    {
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\media\\janken_2.png",
+      "PackagePath": "staticwebassets\\media\\janken_2.png"
+    },
+    {
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\media\\janken_3.png",
+      "PackagePath": "staticwebassets\\media\\janken_3.png"
+    },
+    {
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\media\\profile_1.png",
+      "PackagePath": "staticwebassets\\media\\profile_1.png"
+    },
+    {
+      "Id": "C:\\git\\bitbucket\\2023_intern_work_winter\\wwwroot\\media\\profile_2.png",
+      "PackagePath": "staticwebassets\\media\\profile_2.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.SampleMVCApp.Microsoft.AspNetCore.StaticWebAssets.props",
