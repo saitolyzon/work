@@ -16,9 +16,9 @@ public class HomeController : Controller
     {
         ViewBag.Name = "ライゾン 太郎";
         //以下の3項目を追加しよう！
-        ViewBag.From = "東京都御茶ノ水"; //出身地
-        ViewBag.Hobby = "プログラミング"; //趣味
-        ViewBag.MyBoom = "牛丼屋さん巡り"; //マイブーム
+        //出身地
+        //趣味
+        //マイブーム
         return View();
     }
 
