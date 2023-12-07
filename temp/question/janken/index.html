@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>じゃんけんゲーム</title>
+</head>
+
+<body>
+
+  <!--ここから下がページに表示されるもの-->
+  <p id="memo">
+    課題① グー以外でも勝てるようにしよう<br />
+    課題② 勝った回数が表示されるようにしよう<br />
+    課題③ 勝率が表示されるようにしよう
+  </p>
+  
+  <p>どれを出すか選んでください！</p>
+
+  <!-- じゃんけんボタンを表示する部分 -->
+  <div class="buttons">
+    <button id="rock">&#x1F44A;</button>
+    <button id="paper">&#x1f590;</button>
+    <button id="scissors">&#x270c;</button>
+  </div>
+
+  <!-- 勝敗結果を表示する部分 -->
+  <p id="result"></p>
+
+  <!-- 得点を表示する部分 -->
+  <p id="scores">
+    あなたが勝った回数: <span id="user-score">0</span><br />
+    コンピューターが勝った回数: <span id="computer-score">0</span><br />
+    あなたの勝率: <span id="user-score-percentage">0％</span><br />
+    コンピューターの勝率: <span id="computer-score-percentage">0％</span>
+  </p>
+
+  <hr />
+  
+  <details>
+    <summary>完成図</summary>
+    <center>
+      <img src="~/media/janken.png" border="1">
+    </center>
+  </details>
+  
+  <hr />
+  
+  <details>
+    <summary>ヒント</summary>
+    <details>
+      <!--課題①-->
+      <summary>課題① グー以外でも勝てるようにしよう</summary>
+      <p class="psummary">以下のファイルを編集します。</p>
+      <img src="~/media/janken_1.png" border="1">
+      <hr width="50%" />
+      <p class="psummary">条件と条件の間には「｜」(パイプ)を2つ付ける必要があります<br />
+      (SHIFTキーを押しながらキーボードのBackSpaceキーの左を押すと入力されます)</p>
+      <img src="~/media/janken_1b.png" border="1">
+      <details>
+        <summary>さらにヒント</summary>
+        <p class="psummary">条件1 || 条件2 || 条件3<br />
+        グー vs チョキの場合 || チョキ vs パーの場合 || パー vs グーの場合<br />
+        (playerSelection === "rock" && computerSelection === "scissors") || ◯◯◯ || ◯◯◯</p>
+        <img src="~/media/janken_1c.png" border="1">
+      </details>
+    </details>
+    <hr />
+    <!--課題②-->
+    <details>
+      <summary>課題② 勝った回数が表示されるようにしよう</summary>
+      <p class="psummary">以下のファイルを編集します。</p>
+      <img src="~/media/janken_2.png" border="1">
+      <details>
+        <summary>さらにヒント</summary>
+        <p class="psummary">
+        a = b + c という計算式があった時<br />
+        <br />
+        //数学での考え方<br />
+        a は b + c と等しい<br />
+        <br />
+        //プログラミングでの考え方<br />
+        a に b + c を入れる<br />
+        <br />
+        // a に 1 追加したい時は…<br />
+        a = a + 1
+        </p>
+      </details>
+    </details>
+    <hr />
+    <!--課題③-->
+    <details>
+      <summary>課題③ 勝率が表示されるようにしよう</summary>
+      <p class="psummary">以下のファイルを編集します。</p>
+      <img src="~/media/janken_3.png" border="1">
+      <details>
+        <summary>さらにヒント</summary>
+        <p class="psummary">
+        勝った時/負けた時で勝率を計算して表示するので、79-80行目と99-100行目は同じ処理を書けば済みそうです。
+        <img src="~/media/janken_3b.png" border="1">
+        </p>
+      </details>
+    </details>
+  </details>
+
+  <script src="~/js/janken.js"></script>
+</body>
+
+</html>

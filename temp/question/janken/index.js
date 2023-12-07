@@ -1,11 +1,11 @@
 /*=====================================================*/
-/* 課題 */
+/* 課題①用 */
 //index.htmlの<div class="buttons">を取得する
 const buttons = document.querySelectorAll("button");
 //index.htmlの<p id="result">を取得する
 const resultText = document.getElementById("result");
 /*=====================================================*/
-/* 追加課題1用 */
+/* 課題②用 */
 let playerScore = 0;    //プレイヤーの得点を保存する変数
 let computerScore = 0;  //コンピューターの得点を保存する変数
 
@@ -14,7 +14,7 @@ const playerScoreText = document.getElementById("user-score");
 //index.htmlの<span id="computer-score">を取得する
 const computerScoreText = document.getElementById("computer-score");
 /*=====================================================*/
-/* 追加課題2用 */
+/* 課題③用 */
 //index.htmlの<span id="user-score-percentage">を取得する
 const playerScorePercentage = document.getElementById("user-score-percentage");
 //index.htmlの<span id="computer-score-percentage">を取得する
@@ -55,41 +55,49 @@ function janken(playerSelection, computerSelection) {
   //プレイヤーの手の方が強かったら…
   else if (
     //グー vs チョキ
-    (playerSelection === "rock" && computerSelection === "scissors")
-    //チョキ vs パー
+    (playerSelection === "rock" && computerSelection === "scissors") || 
+    /* 課題① チョキ vs パーで勝てるように条件を追加しよう */
+    (playerSelection === "scissors" && computerSelection === "paper") ||
 
-    //パー vs グー
+    /* 課題① パー vs グーで勝てるように条件を追加しよう */
+    (playerSelection === "paper" && computerSelection === "rock")
 
   ) {
-    /* 追加課題1 */
+    /* 課題② */
     //プレイヤーのスコア(playerScore)に点数を1点追加したい
+    playerScore = playerScore + 1;
 
     //プレイヤーのスコアを表示をしている部分(playerScoreText)に点数を表示する
     playerScoreText.textContent = playerScore;
 
-    /* 追加課題2 */
-    //プレイヤーのスコアとコンピューターのスコアを足した試合数に応じて勝率を出したい(勝率＝プレイヤーのスコア÷(プレイヤーのスコア ＋ コンピューターのスコア) ✕ 100)
+    /* 課題③ */
+    //プレイヤーのスコアとコンピューターのスコアを足した試合数に応じて勝率を出したい
+    // プレイヤーの勝率 ＝ プレイヤーの勝利数 ÷ (プレイヤーの勝利数 ＋ コンピューターの勝利数) ✕ 100
+    // コンピューターの勝率 ＝ コンピューターの勝利数 ÷ (プレイヤーの勝利数 ＋ コンピューターの勝利数) ✕ 100
     //※あいこは勝負回数にカウントしない
-    //小数点四捨五入はMath.round(数字)を使う
+    //小数点四捨五入する場合はMath.round(数字)を使う
+    playerScorePercentage.textContent = Math.round(playerScore / (playerScore + computerScore) * 100) + "％";
+    computerScorePercentage.textContent = Math.round(computerScore / (playerScore + computerScore) * 100) + "％";
 
     return "勝ちました！ (あなた):" + playerSelection + " (コンピューター):" + computerSelection;
 
     //それ以外だったら…
   } else {
-    /* 追加課題1 */
+    /* 課題② */
     //コンピューターのスコア(computerScore)に点数を1点追加したい
+    computerScore = computerScore + 1;
 
     //コンピューターのスコアを表示をしている部分(computerScoreText)に点数を表示する
     computerScoreText.textContent = computerScore;
 
-    /* 追加課題2 */
+    /* 課題③ */
     //プレイヤーのスコアとコンピューターのスコアを足した試合数に応じて勝率を出したい
     // プレイヤーの勝率 ＝ プレイヤーの勝利数 ÷ (プレイヤーの勝利数 ＋ コンピューターの勝利数) ✕ 100
     // コンピューターの勝率 ＝ コンピューターの勝利数 ÷ (プレイヤーの勝利数 ＋ コンピューターの勝利数) ✕ 100
     //※あいこは勝負回数にカウントしない
     //小数点四捨五入はMath.round(数字)を使う
-    //playerScorePercentage.textContent = 
-    //computerScorePercentage.textContent = 
+    playerScorePercentage.textContent = Math.round(playerScore / (playerScore + computerScore) * 100) + "％";
+    computerScorePercentage.textContent = Math.round(computerScore / (playerScore + computerScore) * 100) + "％";
 
     return "負けました… (あなた):" + playerSelection + " (コンピューター):" + computerSelection;
   }

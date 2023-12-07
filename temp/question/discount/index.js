@@ -16,13 +16,13 @@ function calculateTotal() {
   let totaltaxValue = 0;
 
   /*=====================*/
-  //① 割引した金額(税抜)を計算してtotalValueに代入する
-  totalValue = priceValue;
+  //① 割引後の金額(税抜)を計算してtotalValueに代入する
+  totalValue = priceValue * (1 - (discountValue / 100));
 
   //② 割引した後の金額の税込金額を計算してtotaltaxValueに代入する
-  totaltaxValue = priceValue;
-  /*=====================*/
+  totaltaxValue = totalValue * 1.1;
 
+  /*=====================*/
   //計算した金額を表示する
   totalSpan.innerText = Math.round(totalValue) + "円";
   totaltaxSpan.innerText = Math.round(totaltaxValue) + "円";
