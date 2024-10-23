@@ -5,7 +5,6 @@ namespace LyzonMVCApp.Controllers;
 
 public class HomeController : Controller
 {
-
     public IActionResult Index()
     {
         ViewBag.Hello = "Hello World.";
@@ -32,10 +31,9 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult samplePage()
-    {
-        return View();
-    }
-
-
+    //ここにSamplePageのアクションを追加しよう！
+    // public IActionResult SamplePage()
+    // {
+    //     return View();
+    // }
 }

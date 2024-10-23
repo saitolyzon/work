@@ -1,8 +1,52 @@
 ﻿@{
-    ViewData["Title"] = "samplePage.cshtml";
+    ViewData["Title"] = "SamplePage.cshtml";
 }
 <div class="text-center">
     <h1 class="display-4">@ViewData["Title"]</h1>
-    <p>ページを表示しましょう！</p>
-</div>
+    <p>ページを表示できたよ！</p>
 
+    <!--テーブルにデザインを当ててみよう-->
+    <div>
+        <table>
+            <tbody>
+                <tr>
+                    <th>見出し</th>
+                    <td>テキストが入ります</td>
+                    <td>テキストが入ります</td>
+                    <td>テキストが入ります</td>
+                </tr>
+                <tr>
+                    <th>見出し</th>
+                    <td>テキストが入ります</td>
+                    <td>テキストが入ります</td>
+                    <td>テキストが入ります</td>
+                </tr>
+                <tr>
+                    <th>見出し</th>
+                    <td>テキストが入ります</td>
+                    <td>テキストが入ります</td>
+                    <td>テキストが入ります</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+@*
+<style>
+    table {
+        /* 背景色指定 */
+        background-color: #cdefff;
+    }
+
+    th {
+        /* 背景色指定 */
+        background-color: #00e2cf;
+    }
+
+    th,
+    td {
+        /* 枠線指定 */
+        border: solid 1px;
+    }
+</style>
+*@
